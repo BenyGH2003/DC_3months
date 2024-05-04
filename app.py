@@ -26,7 +26,7 @@ def predict():
     X= pd.get_dummies(columns=['Comorbidity'])
     prediction = model.predict_proba(X)
     if prediction[0] >= 0.35: 
-        st.error(''The patients is more likely not to survive, based on our model :heavy_exclamation_mark:'')
+        st.error('The patients is more likely not to survive, based on our model :heavy_exclamation_mark:')
     elif prediction[0] < 0.35:
         st.success('The patients is more likely to survive, based on our model :white_check_mark:') 
         
