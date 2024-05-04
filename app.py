@@ -11,7 +11,7 @@ columns= [['Age', 'Infarction volume', 'Comorbidity']]
 model = joblib.load('DC_3m.pkl')
 
 
-st.title('Prediction of 3 month mortality of patients undergoing DC :brain:')
+st.title('Prediction of 3 month mortality of ischemic stroke patients undergoing DC :brain:')
 
 age = st.number_input("Enter the patient age")
 mrs = st.number_input("Enter the infarction volume")
