@@ -14,7 +14,7 @@ model = joblib.load('DC_3m.pkl')
 st.title('Prediction of 3 month mortality of patients undergoing DC :brain:')
 
 age = st.number_input("Enter the patient age")
-mrs = st.number_input("Enter the MRS of patients while discharging")
+mrs = st.number_input("Enter the infarction volume")
 comorbidity= st.selectbox('Choose the comorbidity? Diabetes(1),Hypertension(2),Ischemic Heart Disease(3),Coagulopathy disorder(4),unknown(5),negative(6),Pneumonia(7),Metabolic Syndrome(8),cancer(9),cerebral vascular accident(10)',
                        [1,2,3,4,5,6,7,8,9,10])
 
