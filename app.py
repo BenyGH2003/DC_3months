@@ -15,7 +15,7 @@ st.title('Prediction of 3 month mortality of patients undergoing DC :brain:')
 
 age = st.number_input("Enter the patient age")
 mrs = st.number_input("Enter the MRS of patients while discharging")
-comorbidity= st.selectbox('Choose the comorbidity? 1:Diabetes,2:Hypertension,3:Ischemic Heart Disease,4:Coagulopathy disorder,5:unknown,6:negative,7:Pneumonia,8:Metabolic Syndrome,9:cancer,10:cerebral vascular accident'
+comorbidity= st.selectbox('Choose the comorbidity? 1:Diabetes,2:Hypertension,3:Ischemic Heart Disease,4:Coagulopathy disorder,5:unknown,6:negative,7:Pneumonia,8:Metabolic Syndrome,9:cancer,10:cerebral vascular accident',
                        [1,2,3,4,5,6,7,8,9,10])
 
 
